@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.window-block a {
+  text-decoration: none;
+  color: salmon;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 0 20px 0 20px;
+  box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease 0s;
+  border: 10px solid rgba(251, 106, 89, 0.5);
+}
+.window-block a:hover {
+  box-shadow: 0px 0px 40px rgba(254, 254, 254, 0.4);
+}
+.window-block {
+  width: 100vw;
+  height: 100vh;
+  background-color: salmon;
+  position: relative;
+}
+#openButton {
+  left: 30%;
+}
+#closeButton {
+  right: 20%;
+  border-radius: 20px 0 20px 0;
+}
+.tasks-block {
+  position: absolute;
+  z-index: 3;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.tasks-block a {
+  color: rgb(58, 58, 58);
+  text-decoration: none;
+}
+.tasks-block a:hover {
+  text-decoration: underline;
+}
